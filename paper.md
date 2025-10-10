@@ -27,6 +27,13 @@ bibliography: paper.bib
 
 # Summary
 
+Generalized linear models are widely used in modern scientific research. Currently, there are several functions in `R` that allow users to fit these models, 
+such as `stats::glm()`, `geepack::geese`, `geepack::geepack`, to name a few. A critical component of statistical analysis involving these models and performing
+inference on the models estimated by these functions. Presently, while these function do implement inferential procedures for the parameter estimates, they do not implement
+robust inference procedures, such as robust Rao (score) tests. The advantage of using these procedures over their non-robust counterparts are that they tend to have a 
+lower rate of having false positive results than other tests in small samples. Thus, it is important to implement these procedures in an easy-to-use intuitive package
+for scientific researchers, which is precisely the niche that raoBust fills.
+
 
 # Statement of need
 
